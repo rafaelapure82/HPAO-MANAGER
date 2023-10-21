@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Hospital ConfiguroWeb</title>
+<title>HPAO Apure</title>
 <link rel="stylesheet" type="text/css" href="css/staff.css"/>
 <script type="text/javascript" src="js/rightde.js"></script>
 <link rel="stylesheet" href="css/hide.css">
