@@ -18,7 +18,7 @@
 
 </style>
 
-<title>Hospital ConfiguroWeb</title>
+<title>Hospital Dr. Pablo Acosta Ortiz</title>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
 <div class="row">
 <div class="col-md-12">
 
-<h1 class="text-center ">Hospital ConfiguroWeb<br /><small style="font-size:20px">Sistema Administrativo de Hospitales</small></h1></div>
+<h1 class="text-center ">HPAO<br /><small style="font-size:20px">Sistema Administrativo de Hospitales del Edo. Apure</small></h1></div>
 </div>
 </div>
 </div>

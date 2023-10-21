@@ -33,7 +33,7 @@
    <div class="container-fluid foot2">
     <div class="row">
         <div style="padding: 10px;" class="col-md-10 col-md-push-2">
- <a href="https://www.configuroweb.com/tag/php/">Más desarrollos gratis en ConfiguroWeb</a>
+ <a href="https://profrafaelmontenegro.wordpress.com/" target="_blank">Más desarrollo Web con Rafael Montenegro B.</a>
         </div>
     </div>
     </div>

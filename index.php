@@ -13,7 +13,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="text/javascript" src="js/rightde.js"></script>
 <script type="text/javascript" src="js/rightde.js"></script>
-<title>Health Care hospital</title>
+<title>Hospital Dr. Pablo Acosta Ortiz</title>
 </head>
 
 <body>
@@ -23,7 +23,7 @@
 <div class="row">
 <div class="col-md-12">
 
-<h1 class="text-center ">Hospital ConfiguroWeb<br /><small style="font-size:20px">Sistema Administrativo de Hospitales</small></h1></div>
+<h1 class="text-center ">HPAO<br /><small style="font-size:20px">Sistema Administrativo de Hospitales del Edo. Apure</small></h1></div>
 </div>
 </div>
 </div>
@@ -102,7 +102,7 @@ session_start();
 	</form>
 
 	</div>
-	<div style="font-size :18px; border-style: none  none none dotted; border-width: 2px; border-color: rgba(0, 0, 0, 0.2); height: 390px;text-align: justify;" class="col-md-4 col-md-push-2  col-xs-12 "><br>Este es el formulario de inicio de sesión del sistema principal para acceder al sistema. puede ingresar los detalles de inicio de sesión de administrador Super y Básico. si no es miembro de systme, cree su acceso de inicio de sesión utilizando 
+	<div style="font-size :18px; border-style: none  none none dotted; border-width: 2px; border-color: rgba(0, 0, 0, 0.2); height: 390px;text-align: justify;" class="col-md-4 col-md-push-2  col-xs-12 "><br>Este es el formulario de inicio de sesión del sistema principal para acceder al sistema. puede ingresar los detalles de inicio de sesión de administrador Super y Básico. si no es miembro de este sistema no puede ingresar, por ahora está limitado su acceso.
 <br>
 	<br>Ingrese los detalles de inicio de sesión proporcionados por la administración del hospital. </div>
 	</div>
@@ -121,7 +121,7 @@ session_start();
 		<div class="container-fluid">
     <div class="row">
         <div style="padding: 10px;" class="col-md-10 col-md-push-2">
-Más desarrollos gratuitos en <a href="https://www.configuroweb.com/tag/php/">ConfiguroWeb</a>
+Más desarrollos Web con <a href="https://profrafaelmontenegro.wordpress.com/" target="_blank">Rafael Montenegro B.</a>
         </div>
     </div>
     </div>

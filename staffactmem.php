@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Hospital ConfiguroWeb</title>
+<title>Hospital Dr. Pablo Acosta Ortiz</title>
 <link rel="stylesheet" type="text/css" href="css/staff.css"/><script type="text/javascript" src="js/rightde.js"></script>
 <style type="text/css">
   .active a{
@@ -25,7 +25,7 @@
 <div class="container">
 <div class="row">
 <div class="col-md-12 col-xs-12 ">
-<h1 class="text-center ">Hospital ConfiguroWeb<br /><small style="font-size:20px">Sistema Administrativo de Hospitales</small></h1></div>
+<h1 class="text-center ">HPAO<br /><small style="font-size:20px">Sistema Administrativo de Hospitales del Edo. Apure</small></h1></div>
 </div>
 </div><br><br><br>
 <input id="admtee" type="hidden" name="admtyp" value="<?php echo $_SESSION['admty']; ?>">

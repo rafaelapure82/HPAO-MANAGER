@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="css/hide.css">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <script type="text/javascript" src="js/rightde.js"></script>
-<title>Hospital ConfiguroWeb</title>
+<title>Hospital Dr. Pablo Acosta Ortiz</title>
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -28,7 +28,7 @@
 <div class="container-fluid" >
 <div class="row">
 
-<h1 class="text-center ">Hospital ConfiguroWeb<br /><small style="font-size:20px">Sistema Administrativo de Hospitales</small></h1></div>
+<h1 class="text-center ">HPAO<br /><small style="font-size:20px">Sistema Administrativo de Hospitales del Edo. Apure</small></h1></div>
 
 <hr width="250px">
 </div>

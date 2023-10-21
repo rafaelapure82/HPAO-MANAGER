@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Health Care hospital</title>
+<title>Hospital Dr. Pablo Acosta Ortiz</title>
 <link rel="stylesheet" type="text/css" href="css/staff.css"/><script type="text/javascript" src="js/rightde.js"></script>
 <style type="text/css">
 
@@ -23,7 +23,7 @@
 <div class="container">
 <div class="row">
 <div class="col-md-12 col-xs-12 ">
-<h1 class="text-center ">Health Care Hospital<br /><small style="font-size:20px">Hospital Management System</small></h1></div>
+<h1 class="text-center ">Hospital Dr. Pablo Acosta Ortiz<br /><small style="font-size:20px">SAH Edo. Apure</small></h1></div>
 <div class="container">
 <div class="row">
 <div class="col-md-12 col-xs-12 ">

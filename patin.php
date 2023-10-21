@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <link rel="stylesheet" href="css/hide.css">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Hospital ConfiguroWeb</title>
+<title>Hospital Dr. Pablo Acosta Ortiz</title>
 <link rel="stylesheet" type="text/css" href="css/staff.css"/>
 <link rel="stylesheet">
 <style type="text/css">
@@ -32,7 +32,7 @@
 <div class="row">
 <div class="col-md-12 col-xs-12">
 <br>
-<h1 class="text-center ">Hospital ConfiguroWeb<br /><small style="font-size:20px">Sistema Administrativo de Hospitales</small></h1></div>
+<h1 class="text-center ">HPAO<br /><small style="font-size:20px">Sistema Administrativo de Hospitales del Edo. Apure</small></h1></div>
 
 </div>
 </div>
