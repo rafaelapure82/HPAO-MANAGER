@@ -41,12 +41,12 @@
 }
 </script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript" src="js/rightde.js"></script>
-<title>Health Care hospital</title>
+<title>Hospital Dr. Pablo Acosta Ortiz</title>
 </head>
 <body>
 <?php include 'slvlauth.php'; ?>
 <div style="background-color: white; height: 40px; padding: 10px; z-index: 1; position:fixed; width: 1366px;">
-You are Welcome Top Level <?php echo $_SESSION['topadun']; ?> Options. <a href="dminlogout.php">Logout</a>
+Bienvenido al Top Level <?php echo $_SESSION['topadun']; ?> Opciones. <a href="dminlogout.php">Logout</a>
 </div>
 <br>
 <br><br />
@@ -54,7 +54,7 @@ You are Welcome Top Level <?php echo $_SESSION['topadun']; ?> Options. <a href="
 <div class="row">
 <div class="col-md-12">
 
-<h1 class="text-center ">Health Care Hospital<br /><small style="font-size:20px">Hospital Management System</small></h1>
+<h1 class="text-center ">HPAO<br /><small style="font-size:20px">Sistema Administrativo de Hospitales del Edo. Apure</small></h1>
 </div>
 </div>
 </div>
@@ -197,7 +197,7 @@ document.write('<?php echo $regs; ?>');</script> </center>
     <div class="container-fluid">
     <div class="row">
         <div style="padding: 10px;" class="col-md-10 col-md-push-2">
-Copyright © 2016 Jayendra Matarage. All rights reserved.
+Copyright © 2023 Rafael Montenegro B. All rights reserved.
         </div>
     </div>
     </div>

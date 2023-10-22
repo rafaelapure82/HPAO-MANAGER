@@ -13,7 +13,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript" src="js/rightde.js"></script>
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
 
-<title>Health Care hospital</title>
+<title>Hospital Dr. Pablo Acosta Ortiz</title>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
 <div class="row">
 <div class="col-md-12">
 
-<h1 class="text-center ">Health Care Hospital<br /><small style="font-size:20px">Hospital Management System</small></h1>
+<h1 class="text-center ">HPAO<br /><small style="font-size:20px">Sistema Administrativo de Hospitales del Edo. Apure</small></h1>
 </div>
 </div>
 </div>
@@ -95,7 +95,7 @@ session_start();
 		<div class="container-fluid">
     <div class="row">
         <div style="padding: 10px;" class="col-md-10 col-md-push-2">
-ConfiguroWeb
+
         </div>
     </div>
     </div>

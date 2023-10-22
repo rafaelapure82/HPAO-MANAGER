@@ -9,15 +9,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <p class="navbar-brand">Welcome <?php echo $_SESSION['sadmun']; ?>! <a href="dminlogout.php">Logout</a>
+      <p class="navbar-brand">Bienvenido <?php echo $_SESSION['sadmun']; ?>! <a href="dminlogout.php">Logout</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
       <ul class="nav navbar-nav">
-        <li><a  href="menu.php">Main Menu</a></li>
-        <li><a  href="superadmin.php">Super Admin Options</a></li>
+        <li><a  href="menu.php">Menu Principal</a></li>
+        <li><a  href="superadmin.php">Super Admin Opciones</a></li>
 
       </ul>
 

@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <p class="navbar-brand">Welcome Top Level Adminstration Login!</p>
+      <p class="navbar-brand">Bienvenido al nivel máximo de Administración!</p>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Health Care hospital</title>
+<title>Hospital Dr. Pablo Acosta Ortiz</title>
 <link rel="stylesheet" type="text/css" href="css/staff.css"/>
 <script type="text/javascript" src="js/rightde.js"></script>
 </head>
@@ -20,7 +20,7 @@
 <div class="row">
 <div class="col-md-12 col-xs-12">
 
-<h1 class="text-center ">Health Care Hospital<br /><small style="font-size:20px">Hospital Management System</small></h1></div>
+<h1 class="text-center ">HPAO<br /><small style="font-size:20px">Sistema Administrativo de Hospital del Edo. Apure</small></h1></div>
 
 </div>
 </div>
@@ -31,7 +31,7 @@
 <div class="col-md-12 col-xs-12">
 
 <div class="page-header">
-<h3 style="font-family:calibri;" class="text-center">Admited Patient Information</h3></div>
+<h3 style="font-family:calibri;" class="text-center">Información del Paciente Admitivo</h3></div>
 <br />
 
 <div class="container">
@@ -39,7 +39,7 @@
 <div class="col-md-4 col-md-offset-4 col-xs-12">
 <div class="panel panel-default">
 <div class="panel-heading">
-<h3 class="panel-title text-center">Admited Patient Information</h3>
+<h3 class="panel-title text-center">Información del Paciente Admitivo</h3>
 </div>
 <center>
 <div class="panel-body">
@@ -57,17 +57,17 @@ $row = mysqli_fetch_assoc($result);
 ?>
 
   <form method="post" action="">
-<div align="left">Patient ID:</div>
+<div align="left">Paciente ID:</div>
     <input disabled    value="<?php echo $row["pet_id"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor ID" >
-<div align="left">Patient Name:</div>
+<div align="left">Nombre del Paciente:</div>
     <input disabled    value="<?php echo $row["pet_fn"]; ?> <?php echo $row["pet_sn"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor Name">
-<div align="left">Patient Mobile:</div>
+<div align="left">Número de TLF del Paciente:</div>
     <input disabled    value="<?php echo $row["pet_ac"]; ?> <?php echo $row["pet_con"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor Contact number">
-<div align="left">Patient Blood Group:</div>
+<div align="left">Grupo Sanguineo del Paciente:</div>
     <input disabled    value="<?php echo $row["pet_bg"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor Address">
-<div align="left">Patient Desease:</div>
+<div align="left">Enfermedad del Paciente:</div>
         <input disabled    value="<?php echo $row["pet_des"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor Address">
-<div align="left">Patient Age:</div>
+<div align="left">Edad del Paciente:</div>
                 <input disabled    value="<?php echo $row["pet_age"]; ?>" style="margin:5px;  border-radius:0px" type="text" class="form-control" placeholder="Doctor Address">
   </form>
 
@@ -80,7 +80,7 @@ document.write('<?php echo $success; ?>');
   </tr>
 
 </center>
-<div class="panel-footer text-center">Press Submit button after completing </div>
+<div class="panel-footer text-center">Presione el boton despues de terminar </div>
 
 </div>
 </div>

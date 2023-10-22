@@ -59,7 +59,7 @@
 <link href="css/font-awesome.css" type="text/css" rel="stylesheet" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<title>Health Care hospital</title>
+<title>Hospital Dr. Pablo Acosta Ortiz</title>
 </head>
 
 <body>
@@ -68,7 +68,7 @@
 <div class="row">
 <div class="col-md-12 col-xs-12">
 <div class="page-header">
-<h1 class="text-center ">Health Care Hospital<br /><small style="font-size:20px">Hospital Management System</small></h1></div>
+<h1 class="text-center ">HPAO<br /><small style="font-size:20px">Sistema Administrativo de Hospitales del Edo. Apure</small></h1></div>
 </div>
 </div>
 </div>

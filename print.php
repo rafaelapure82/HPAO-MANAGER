@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="css/print.css" media="print">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Hospital ConfiguroWeb</title>
+<title>Hospital Dr. Pablo Acosta Ortiz</title>
 <script type="text/javascript" src="js/rightde.js"></script>
 <style type="text/css">
 </style>
@@ -31,7 +31,7 @@ $rowe = mysqli_fetch_assoc($resulte);
 <div class="container">
 <div class="row">
 <div class="col-md-12 col-xs-12 ">
-<h1 class="text-center ">Hospital ConfiguroWeb<br /><small style="font-size:20px">Factura de Paciente</small></h1></div>
+<h1 class="text-center ">HPAO<br /><small style="font-size:20px">Factura de Paciente</small></h1></div>
 </div>
 </div>
 
@@ -60,11 +60,11 @@ $rowe = mysqli_fetch_assoc($resulte);
     </tr>
     <tr>
       <td width="200"><strong>Cobros por medicinas : </strong></td>
-      <td width="250"><strong>COP <?php echo $row["price_of_med"]; ?></strong></td>
+      <td width="250"><strong>BsS. <?php echo $row["price_of_med"]; ?></strong></td>
     </tr>
     <tr>
       <td width="200"><strong>Precio por doctores : </strong></td>
-      <td width="250"><strong>COP <?php echo $row["price_of_doc"]; ?></strong></td>
+      <td width="250"><strong>BsS. <?php echo $row["price_of_doc"]; ?></strong></td>
     </tr>
 
 
@@ -74,15 +74,15 @@ $rowe = mysqli_fetch_assoc($resulte);
     </tr>
     <tr>
       <td ><strong>Precio por cuarto : </strong></td>
-      <td ><strong>COP <?php echo $row["price_of_doc"]; ?></strong></td>
+      <td ><strong>BsS. <?php echo $row["price_of_doc"]; ?></strong></td>
     </tr>
     <tr>
       <td ><strong>Cobros de Servicio : </strong></td>
-      <td ><strong>COP <?php echo $row["ser_char"]; ?></strong></td>
+      <td ><strong>BsS. <?php echo $row["ser_char"]; ?></strong></td>
     </tr>
     <tr>
       <td ><strong>Precio total : </strong></td>
-      <td ><strong>COP <?php echo $row["totl"]; ?></strong></td>
+      <td ><strong>BsS. <?php echo $row["totl"]; ?></strong></td>
     </tr>
   </table>
 <br>

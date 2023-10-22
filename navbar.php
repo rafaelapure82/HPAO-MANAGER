@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <p class="navbar-brand">Hola, hola <font color="#7eaefc"><?php echo $_SESSION['sadmun']; ?>!</font> Has accedido como <?php echo $_SESSION['admty']; ?> <a href="dminlogout.php">cerrar sesión</a>
+      <p class="navbar-brand">Hola, <font color="#7eaefc"><?php echo $_SESSION['sadmun']; ?>!</font> Has accedido como <?php echo $_SESSION['admty']; ?> <a href="dminlogout.php">cerrar sesión</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

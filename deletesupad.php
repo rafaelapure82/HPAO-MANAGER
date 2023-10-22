@@ -13,7 +13,7 @@
 <link href="css/font-awesome.css" type="text/css" rel="stylesheet" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="text/javascript" src="js/rightde.js"></script>
-<title>Health Care hospital</title>
+<title>Hospital Dr. Pablo Acosta Ortiz</title>
 <style type="text/css">
   .active a{
     background-color: #c6c6c6;
@@ -24,13 +24,13 @@
 <body>
 <?php include 'slvlauth.php'; ?>
 <div style="background-color: white; height: 40px; padding: 10px; z-index: 1; position:fixed; width: 1366px;">
-You are Welcome Top Level <?php echo $_SESSION['topadun']; ?> Options. <a href="dminlogout.php">Logout</a>
+Bienvenido al Nivel Top <?php echo $_SESSION['topadun']; ?> Opciones. <a href="dminlogout.php">Logout</a>
 </div><br><br><br>
 <div class="container">
 <div class="row">
 <div class="col-md-12">
 
-<h1 class="text-center ">Health Care Hospital<br /><small style="font-size:20px">Hospital Management System</small></h1>
+<h1 class="text-center ">HPAOl<br /><small style="font-size:20px">Sistema Administrativo de Hospitales del Edo. Apure</small></h1>
 </div>
 </div>
 </div>
@@ -85,7 +85,7 @@ while($row = mysqli_fetch_assoc($result)) { ?>
     <td  align="left"><?php echo $row["sadiun"]?> </td>
 	  <td  align="left"><?php echo $row["sadem"]; ?></td>
     <td  align="left"><?php echo $row["cret_date"]; ?></td>
-    <td  align="center"><a  href="delesup.php?id=<?php echo $row["sadid"]; ?>" name="ad">Delete</a></td>
+    <td  align="center"><a  href="delesup.php?id=<?php echo $row["sadid"]; ?>" name="ad">Eliminar</a></td>
 
 
 </tr>

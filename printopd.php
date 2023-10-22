@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="css/print.css" media="print">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Hospital ConfiguroWeb</title>
+<title>Hospital Dr. Pablo Acosta Ortiz</title>
 <script type="text/javascript" src="js/rightde.js"></script>
 <style type="text/css">
 </style>
@@ -31,7 +31,7 @@ $rowe = mysqli_fetch_assoc($resulte);
 <div class="container">
 <div class="row">
 <div class="col-md-12 col-xs-12 ">
-<h1 class="text-center ">Hospital ConfiguroWeb<br /><small style="font-size:20px">Factura de Paciente</small></h1></div>
+<h1 class="text-center ">HPAO<br /><small style="font-size:20px">Factura de Paciente</small></h1></div>
 </div>
 </div>
 
@@ -60,20 +60,20 @@ $rowe = mysqli_fetch_assoc($resulte);
     </tr>
     <tr>
       <td width="200"><strong>Cobros por medicina : </strong></td>
-      <td width="250"><strong>COP. <?php echo $row["medi_charge"]; ?></strong></td>
+      <td width="250"><strong>BsS. <?php echo $row["medi_charge"]; ?></strong></td>
     </tr>
     <tr>
       <td width="200"><strong>Cobros por doctores : </strong></td>
-      <td width="250"><strong>COP. <?php echo $row["doc_charge"]; ?></strong></td>
+      <td width="250"><strong>BsS. <?php echo $row["doc_charge"]; ?></strong></td>
 
 
     <tr>
       <td ><strong>Cargo por servicios : </strong></td>
-      <td ><strong>COP. <?php echo $row["hos_charge"]; ?></strong></td>
+      <td ><strong>BsS. <?php echo $row["hos_charge"]; ?></strong></td>
     </tr>
     <tr>
       <td ><strong>Cobro total : </strong></td>
-      <td ><strong>COP. <?php echo $row["total_charge"]; ?></strong></td>
+      <td ><strong>BsS. <?php echo $row["total_charge"]; ?></strong></td>
     </tr>
   </table>
 <br>

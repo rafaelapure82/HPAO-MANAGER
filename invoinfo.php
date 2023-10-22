@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Hospital ConfiguroWeb</title>
+<title>Hospital Dr. Pablo Acosta Ortiz</title>
 <link rel="stylesheet" type="text/css" href="css/staff.css"/>
 <script type="text/javascript" src="js/rightde.js"></script>
 <style type="text/css">
@@ -27,7 +27,7 @@
 <div class="container">
 <div class="row">
 <div class="col-md-12 col-xs-12 ">
-<h1 class="text-center ">Hospital ConfiguroWeb<br /><small style="font-size:20px">Sistema Administrativo de Hospitales</small></h1></div>
+<h1 class="text-center ">HPAO<br /><small style="font-size:20px">Sistema Administrativo de Hospitales del Edo. Apure</small></h1></div>
 </div>
 </div><br><br><br>
 <div class="container-fluid">
@@ -59,7 +59,7 @@
 <th><strong>Fecha</strong></th>
 <th><strong>No Registro de Paciente</strong></th>
 <th><strong>Nombre de Paciente</strong></th>
-<th><strong>Cargos del doctor</strong></th>
+<th><strong>Cargos del Doctor</strong></th>
 <th><strong>Cargos de Medicina</strong></th>
 <th><strong>Cargos del Hospital</strong></th>
 
@@ -79,10 +79,10 @@ while($row = mysqli_fetch_assoc($result)) { ?>
     <td align="center"><?php echo $row["invo_pet_id"]; ?> </td>
     <td align="center"><?php echo $row["invo_date"]; ?> </td>
     <td align="center"><?php echo $row["invo_Pet_name"]; ?></td>
-    <td align="center">COP. <?php echo $row["doc_charge"]; ?> </td>
-    <td align="center">COP. <?php echo $row["medi_charge"]; ?> </td>
-    <td align="center">COP. <?php echo $row["hos_charge"]; ?> </td>
-    <td align="center">COP. <?php echo $row["total_charge"]; ?></td>
+    <td align="center">BsS. <?php echo $row["doc_charge"]; ?> </td>
+    <td align="center">BsS. <?php echo $row["medi_charge"]; ?> </td>
+    <td align="center">BsS. <?php echo $row["hos_charge"]; ?> </td>
+    <td align="center">BsS. <?php echo $row["total_charge"]; ?></td>
     <td align="center"><a target="_blank" href="printopd.php?id=<?php echo $row["invo_id"]; ?> & ide=<?php echo $row["invo_pet_id"]; ?>" name="ad">Ver</a></td>
 
 

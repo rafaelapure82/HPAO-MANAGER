@@ -91,7 +91,7 @@
     </tr>
 
   <tr>
-    <td colspan="2" style="padding:5px"><div class="input-group col-md-12 col-xs-12 "> <span style="border-radius:0px; width:10px" class="input-group-addon" id="basic-addon1">+57</span><input pattern="\d{10,10}"  maxlength="10" title="Número de móvil no válido número de caracteres debe ser 10" name="tel" required  type="tel" class="form-control" placeholder="Número de Contacto" style="border-radius:0px"></div><script type="text/javascript">
+    <td colspan="2" style="padding:5px"><div class="input-group col-md-12 col-xs-12 "> <span style="border-radius:0px; width:10px" class="input-group-addon" id="basic-addon1">+58</span><input pattern="\d{10,10}"  maxlength="10" title="Número de móvil no válido número de caracteres debe ser 10" name="tel" required  type="tel" class="form-control" placeholder="Número de Contacto" style="border-radius:0px"></div><script type="text/javascript">
 document.write('<?php echo $conduperr; ?>');
 
 </script></td>

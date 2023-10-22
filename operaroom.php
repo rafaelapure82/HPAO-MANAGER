@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Health Care hospital</title>
+<title>Hospital Dr. Pablo Acosta Ortiz</title>
 <link rel="stylesheet" type="text/css" href="css/staff.css"/>
 </head>
 <script type="text/javascript" src="js/rightde.js"></script>
@@ -20,7 +20,7 @@
 <div class="row">
 <div class="col-md-12 col-xs-12">
 
-<h1 class="text-center ">Health Care Hospital<br /><small style="font-size:20px">Hospital Management System</small></h1></div>
+<h1 class="text-center ">HPAO<br /><small style="font-size:20px">Sistema Administrativo de Hospitales del Edo. Apure</small></h1></div>
 
 </div>
 </div>
@@ -30,7 +30,7 @@
 <div class="container-fluid">
 <div class="row">
 <ul class="nav  nav-justified" style="background-color:#FFF;">
-<li style="font-family:calibri; font-size:16px;"><a style="color:#000" href="roomavi.php"><strong>Room Avilablity</strong></a></li>
+<li style="font-family:calibri; font-size:16px;"><a style="color:#000" href="roomavi.php"><strong>Habitaciones Disponibles</strong></a></li>
 
 </ul>
 </div></div>
@@ -39,7 +39,7 @@
 <div class="col-md-12 col-xs-12">
 
 <div class="page-header">
-<h3 style="font-family:calibri;" class="text-center">Room Avilablity</h3></div>
+<h3 style="font-family:calibri;" class="text-center">Habitaciones Disponibles</h3></div>
 <br />
 <center>
   <form action="">
@@ -48,19 +48,19 @@
   <?php include 'romc.php'; ?>
 <table style=""    border="0" width="550">
 <tr>
-  <td style="border: 5px solid black" id="r1" height="100"><center>Room No: 1</center></td>
-  <td style="border: 5px solid black" id="r2" height="100"><center>Room No: 2</center></td>
-  <td style="border: 5px solid black" id="r3" height="100"><center>Room No: 3</center></td>
-  <td style="border: 5px solid black" id="r4" height="100"><center>Room No: 4</center></td>
-  <td style="border: 5px solid black" id="r5" height="100"><center>Room No: 5</center></td>
+  <td style="border: 5px solid black" id="r1" height="100"><center>Habitación No: 1</center></td>
+  <td style="border: 5px solid black" id="r2" height="100"><center>Habitación No: 2</center></td>
+  <td style="border: 5px solid black" id="r3" height="100"><center>Habitación No: 3</center></td>
+  <td style="border: 5px solid black" id="r4" height="100"><center>Habitación No: 4</center></td>
+  <td style="border: 5px solid black" id="r5" height="100"><center>Habitación No: 5</center></td>
 </tr>
 <tr>
 
-  <td style="border: 5px solid black" id="r6" height="100"><center>Room No: 6</center></td>
-  <td style="border: 5px solid black" id="r7" height="100"><center>Room No: 7</center></td>
-  <td style="border: 5px solid black" id="r8" height="100"><center>Room No: 8</center></td>
-  <td style="border: 5px solid black" id="r9" height="100"><center>Room No: 9</center></td>
-  <td style="border: 5px solid black" id="r10"height="100"><center>Room No: 10</center></td>
+  <td style="border: 5px solid black" id="r6" height="100"><center>Habitación No: 6</center></td>
+  <td style="border: 5px solid black" id="r7" height="100"><center>Habitación No: 7</center></td>
+  <td style="border: 5px solid black" id="r8" height="100"><center>Habitación No: 8</center></td>
+  <td style="border: 5px solid black" id="r9" height="100"><center>Habitación No: 9</center></td>
+  <td style="border: 5px solid black" id="r10"height="100"><center>Habitación No: 10</center></td>
 </tr>
 
 </table>
@@ -71,12 +71,12 @@
   <thead>
   <tr>
   <th valign=""><strong>S.No</strong></th>
-  <th><strong>Room ID</strong></th>
-  <th><strong>Room Name</strong></th>
-  <th><strong>Doctor of room</strong></th>
-  <th><strong>Room Avilability</strong></th>
-  <th><strong>Cleaning Time Morning</strong></th>
-  <th><strong>Cleaning Time Evening</strong></th>
+  <th><strong>Habitación ID</strong></th>
+  <th><strong>Habitación Nombre</strong></th>
+  <th><strong>Doctor de habitación</strong></th>
+  <th><strong>Habitación Disponible</strong></th>
+  <th><strong>Limpieza Hora de la Mañana</strong></th>
+  <th><strong>Limpieza Hora de la Tarde</strong></th>
   <th></th>
   </tr>
   </thead>
@@ -94,7 +94,7 @@
   	  <td  align="left"><?php echo $row["room_avilabl"]; ?></td>
       <td  align="left"><?php echo $row["rc_time_mo"]; ?></td>
       <td  align="left"><?php echo $row["rc_time_ev"]; ?></td>
-      <td  align="center"><a href="roomup.php?id=<?php echo $row["room_id"]; ?>" name="ad">Update Room Informtion</a></td>
+      <td  align="center"><a href="roomup.php?id=<?php echo $row["room_id"]; ?>" name="ad">Actualizar Información de la Habitación</a></td>
 
   </tr>
 
@@ -121,7 +121,6 @@
 
 </body>
 <footer>
-	<hr />
-    <center><h5 style="color:#FFF">Para más desarrollos gratuitos visitanos en ConfiguroWeb</h5><center>
+
 </footer>
 </html>
