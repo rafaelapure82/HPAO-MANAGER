@@ -72,7 +72,7 @@ if (isset($_POST['filter'])){
 
 <div style="padding:20px;  margin:5px; border-radius:5px; background-color:rgba(255, 255, 255, 0.3);"class="col-md-5 col-md-push-1">
 
-<h4 style=" color:">
+<h4 style="color:">
 Patient Reg.No : <?php echo $row["pet_id"]; ?><br />
 Patient Name : <?php echo $row["pet_fn"]; ?> <?php echo $row["pet_sn"]; ?><br />
 OPD Doctor Registration No : <?php echo $row["Pet_opdid"]?>| <a target="_blank" href="admitdf.php?id= <?php echo $row["Pet_opdid"]; ?>" name="ad"> More Information </a>
